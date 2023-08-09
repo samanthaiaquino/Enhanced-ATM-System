@@ -1,0 +1,22 @@
+button {
+  background-color: #0c80f3;
+  border: 6px solid #0ff166;
+  border-radius: 10px;
+  width: 150px;
+}
+
+select {
+  display: block;
+  margin-bottom: 20px;
+}
+
+error-message {
+  color: red;
+  margin: 5px 0;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  border-color: #999999;
+  cursor: not-allowed;
+}
